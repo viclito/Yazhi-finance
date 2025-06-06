@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Yazhi</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid sticky-top px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                <a href="index.html" class="navbar-brand p-0">
+                    <!-- <h1 class="text-secondary display-6"><i class="fas fa-city text-primary me-3"></i>Constra</h1> -->
+                    <img src="img/logo.jpg" alt="Logo" class="" style="width: auto; height: 70px;padding: 0; margin: 0;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Services</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-secondary">Service</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Services Start -->
+        <div class="container-fluid service bg-light pb-5 pt-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <p class="text-uppercase text-secondary fs-5 mb-0">Our Services</p>
+                    <h2 class="display-4 text-capitalize mb-3">Comprehensive Loan Solutions Across India</h2>
+                </div>
+                <div class="row g-4">
+                    <!-- Bank Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-1.jpg" class="img-fluid w-100" alt="Bank Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">Bank Loan</p>
+                                <p class="text-white mb-4">Tailored financial solutions with competitive interest rates for personal and business needs from leading banks.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>Bank Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Commercial Building Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-2.jpg" class="img-fluid w-100" alt="Commercial Building Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">Commercial Building Loan</p>
+                                <p class="text-white mb-4">Specialized financing for office spaces, retail outlets, and other income-generating properties.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>Commercial Building Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Land Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-3.jpg" class="img-fluid w-100" alt="Land Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">Land Loan</p>
+                                <p class="text-white mb-4">Flexible funding options for purchasing residential, agricultural, or industrial plots across India.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>Land Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vehicle Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-4.jpg" class="img-fluid w-100" alt="Vehicle Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">Vehicle Loan</p>
+                                <p class="text-white mb-4">Affordable financing for new or used cars, trucks, and commercial vehicles with quick approvals.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>Vehicle Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agricultural Land Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-5.jpg" class="img-fluid w-100" alt="Agricultural Land Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">Agricultural Land Loan</p>
+                                <p class="text-white mb-4">Specialized loans for farmers and agri-entrepreneurs to purchase or develop farmland.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>Agricultural Land Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- School Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-6.jpg" class="img-fluid w-100" alt="School Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">School Loan</p>
+                                <p class="text-white mb-4">Financial support for educational institutions to build infrastructure or upgrade facilities.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>School Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- College Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-7.jpg" class="img-fluid w-100" alt="College Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">College Loan</p>
+                                <p class="text-white mb-4">Customized funding solutions for higher education institutions and student housing projects.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>College Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trust Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-8.jpg" class="img-fluid w-100" alt="Trust Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">Trust Loan</p>
+                                <p class="text-white mb-4">Financial assistance for NGOs, religious trusts, and charitable organizations for property or development needs.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>Trust Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Factory & Company Loan -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-9.jpg" class="img-fluid w-100" alt="Factory & Company Loan">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">Factory & Company Loan</p>
+                                <p class="text-white mb-4">Industrial financing for machinery, expansion, or working capital with flexible repayment terms.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>Factory & Company Loan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- All Property Loans -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-10.jpg" class="img-fluid w-100" alt="All Property Loans">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <p class="d-block fs-4 my-4" style="color: white;">All Property Loans</p>
+                                <p class="text-white mb-4">End-to-end financing solutions for residential, commercial, and industrial properties across India.</p>
+                            </div>
+                            <div class="service-tytle">
+                                <div class="d-flex align-items-center ps-4 w-100">
+                                    <h4>All Property Loans</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Fact Counter -->
+        <div class="container-fluid counter py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-box">
+                            <div class="counter-item">
+                                <div class="counter-item-style"></div>
+                                <div class="counter-item-inner p-5">
+                                    <i class="fas fa-thumbs-up fa-4x text-secondary"></i>
+                                    <h4 class="text-dark my-4">Completed Projects</h4>
+                                    <div class="counter-counting">
+                                        <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">100</span>
+                                        <span class="h1 fw-bold text-secondary">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-box">
+                            <div class="counter-item">
+                                <div class="counter-item-style"></div>
+                                <div class="counter-item-inner p-5">
+                                    <i class="fas fa-users fa-4x text-secondary"></i>
+                                    <h4 class="text-dark my-4">Happy Customers</h4>
+                                    <div class="counter-counting">
+                                        <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">500</span>
+                                        <span class="h1 fw-bold text-secondary">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-box">
+                            <div class="counter-item">
+                                <div class="counter-item-style"></div>
+                                <div class="counter-item-inner p-5">
+                                    <i class="fas fa-user fa-4x text-secondary"></i>
+                                    <h4 class="text-dark my-4">Qualified Team Members</h4>
+                                    <div class="counter-counting">
+                                        <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">12</span>
+                                        <span class="h1 fw-bold text-secondary">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="counter-box">
+                            <div class="counter-item">
+                                <div class="counter-item-style"></div>
+                                <div class="counter-item-inner p-5">
+                                    <i class="fas fa-heart fa-4x text-secondary"></i>
+                                    <h4 class="text-dark my-4">Years Experiance</h4>
+                                    <div class="counter-counting">
+                                        <span class="text-secondary fs-2 fw-bold" data-toggle="counter-up">7</span>
+                                        <span class="h1 fw-bold text-secondary">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center pt-4 wow fadeInUp" data-wow-delay="0.9s">
+                        <a class="counter-btn btn btn-secondary py-3 px-5" href="contact.html">Join With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact Counter -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <p class="text-uppercase text-secondary fs-5 mb-0">Testimonials</p>
+                    <h2 class="display-4 text-capitalize mb-3">Our clients reviews.</h2>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="testimonial-item bg-light p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">From planning to handover, the entire construction process was smooth and transparent.
+The Yazhi team handled everything with efficiency and great attention to detail. Their commitment to timelines, quality, and clear communication made a big difference. I’m proud to own a home built by them.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="me-4">
+                                    <img src="img/testimonial-3.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                                </div>
+                                <div class="d-block">
+                                    <h4 class="text-dark">Berglin YSA Viclito</h4>
+                                    <div class="d-flex text-secondary pe-5">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">Yazhi made my dream home a reality with unmatched professionalism and care.
+From the initial consultation to final handover, their team was responsive, transparent, and committed. I felt truly supported throughout the journey, and the final result exceeded my expectations.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="me-4">
+                                    <img src="img/testimonial-2.png" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                                </div>
+                                <div class="d-block">
+                                    <h4 class="text-dark">Sundar M</h4>
+                                    <div class="d-flex text-secondary pe-5">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-muted"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">Their financial guidance helped me invest wisely and grow my property portfolio.
+Yazhi’s team clearly explained every step, offered smart solutions, and delivered results with integrity. I’m very satisfied with their real estate services and would highly recommend them to anyone looking for reliable investment opportunities.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="me-4">
+                                    <img src="img/testimonial-2.png" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                                </div>
+                                <div class="d-block">
+                                    <h4 class="text-dark">Anita K.</h4>
+                                    <div class="d-flex text-secondary pe-5">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-muted"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <!-- <h4 class="text-white mb-4">Yazhi</h4> -->
+                                <img src="img/logo.jpg" alt="Logo" class="" style="width: 80%; height: auto;padding: 0; margin: 0;">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-6">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Payment Details</h4>
+                            <p style="color: white;">
+                                <strong style="display: inline-block; width: 180px;">UPI ID</strong>: praveenthala561@okaxis
+                            </p>
+                            <p style="color: white;">
+                                <strong style="display: inline-block; width: 180px;">Google Pay/Phone Pay</strong>: 8807124650
+                            </p>
+                            <p style="color: white;">
+                                <strong style="display: inline-block; width: 180px;">Bank Name</strong>: State Bank of India
+                            </p>
+                            <p style="color: white;">
+                                <strong style="display: inline-block; width: 180px;">Account Name</strong>: PRAVEEN KUMAR R
+                            </p>
+                            <p style="color: white;">
+                                <strong style="display: inline-block; width: 180px;">Account Number</strong>: 921010048247569
+                            </p>
+                            <p style="color: white;">
+                                <strong style="display: inline-block; width: 180px;">IFSC Code</strong>: UTIB0000118
+                            </p>
+                            <p style="color: white;">
+                                <strong style="display: inline-block; width: 180px;">Account Type</strong>: Savings Account
+                            </p>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <a href="https://www.google.com/maps/place/123+Street,+New+York,+USA" target="_blank">
+                                <!-- <i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA -->
+                            </a>
+                            <a href="mailto:Praveenthala551@gmail.com">
+                                <i class="fas fa-envelope me-2"></i> Praveenthala551@gmail.com
+                            </a>
+                            <a href="tel:+918807124650">
+                                <i class="fas fa-phone me-2"></i> +91 8807124650
+                            </a>
+                            <a href="https://wa.me/6381079511" target="_blank">
+                                <i class="fab fa-whatsapp me-2"></i> 6381079511
+                            </a>
+                            <div class="footer-btn d-flex align-items-center mt-2">
+                                <a class="btn btn-secondary btn-md-square me-2" href="https://wa.me/6381079511" target="_blank">
+                                    <i class="fab fa-whatsapp text-white"></i>
+                                </a>
+                                <a class="btn btn-secondary btn-md-square me-0" href="https://t.me/Praveenthala551" target="_blank">
+                                    <i class="fab fa-telegram-plane text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <div id="qr-box">
+            <img src="img/QR.jpg" alt="QR Code" />
+        </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
